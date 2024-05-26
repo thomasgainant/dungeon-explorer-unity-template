@@ -1,0 +1,54 @@
+{
+    "name": "Default",
+    "maps": [
+        {
+            "name": "Desktop",
+            "id": "5607b774-e8da-41d2-96f5-26f75f1bbc1b",
+            "actions": [
+                {
+                    "name": "SetMoveCamera",
+                    "type": "Button",
+                    "id": "b2f72315-9584-4bdc-85d4-f3352624723e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MoveCamera",
+                    "type": "Value",
+                    "id": "ab3f163e-415f-4fbf-ba90-38c844b98482",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a6af3f58-d3ce-4099-8d0b-2d5a521222de",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SetMoveCamera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9a0d3f30-0061-4b1d-b5cc-41c2ffe42c1d",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveCamera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
